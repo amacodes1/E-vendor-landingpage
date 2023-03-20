@@ -1,0 +1,110 @@
+* .asgn{
+    text-align: center;
+}
+.img{ 
+   height: 50px; 
+   width: 100%;
+}
+.head{
+    background-image: url(images/banner.jpg);
+    height:500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana,;
+    font-weight: bold;
+    font-stretch: expanded;
+    position: relative;
+}
+.head p{
+    position: absolute;
+    top:40%;
+    left:35%;
+    color: white;
+    font-family: fantasy;
+    font-weight: 5;
+    font-stretch: narrower;
+    z-index: 1; 
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(72, 89, 241);
+    opacity: .3;
+}
+.middle{
+    background-color: white;
+    box-shadow:1px 1px 10px rgb(160, 145, 145);
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    color: rgb(65, 64, 64);
+}
+.middle h2{
+    font-family: fantasy;
+    font-weight: 1;
+    color: rgb(80, 78, 78);
+}
+.button{
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border-color: orange;
+    border-style: double;
+    border-radius: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.button2{
+    background-color: orange;
+    width: 80px;
+    height: 25px;
+    border-color: orange;
+    border-style: double;
+    border-radius: 15px;
+    position: absolute;
+    left: 3px;
+}
+.button2 a{
+    text-decoration: none;
+    color: white;
+}
+.buttom{
+    background-color: rgb(85, 85, 250);
+    height: 400px;
+    color: white;
+    position: relative;
+}
+.buttom2{
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    text-align: left;
+}
+.buttom2 h3{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 1;
+}
+.buttom input{
+    width: 500px;
+    background-color: rgb(85, 85, 250);
+    border-radius: 10px;
+    height: 25px; 
+    border-style: groove;
+    border-color: white;
+}
+a img{
+    border-radius: 50px;
+    height: 40px;
+}
+.buttom textarea,select{
+    width: 500px;
+    background-color: rgb(85, 85, 250);
+    border-radius: 10px;
+    height: 35px;
+    border-color: white;
+    color: white;
+}
